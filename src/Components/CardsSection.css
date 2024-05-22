@@ -1,0 +1,77 @@
+.main_container{
+    /* border: 2px solid black; */
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.sub_container{
+    /* border: 2px solid rgb(234, 17, 17); */
+    height: 95%;
+    width: 80%;
+    border-radius: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+.Description{
+    /* border: 2px solid rgb(17, 17, 234); */
+    width: 64%;
+    height: 100%;
+    border-radius: 0.5em;
+    
+    /* padding-right: 1rem; */
+    
+    
+}
+.box1{
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 19rem;
+    display: flex;
+    border-radius: 0.5rem;
+    background-color:rgb(226, 226, 243);
+    
+}
+.imagepart{
+    /* border: 2px solid rgb(231, 14, 184); */
+    width: 30%;
+    height: 18rem;
+    
+}
+.imgone{
+    height: 7rem;
+    transform: rotate(25deg);
+    border-radius: 0.8rem;
+    margin-top: 1.5rem;
+
+}
+.imagepart {
+    position: relative;
+
+  }
+  
+  .bottom-image,
+  .top-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure images fill the container */
+    height: 100%;
+  }
+  
+  .bottom-image {
+    z-index: 1;
+  }
+  
+  .top-image {
+    z-index: 2; /* Ensure top image is above */
+    opacity: 0.5; /* Adjust opacity to make both images visible */
+    top: 10px; /* Adjust the offset as needed */
+  }
+  .lastone{
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+  
+  

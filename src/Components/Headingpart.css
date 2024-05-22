@@ -1,0 +1,28 @@
+.Headingpart{
+    /* border: 2px solid red; */
+    height: 15rem;
+    width: 100vw;
+    text-align: center;
+
+}
+.Headingpart h1{
+    font-size: 5rem;
+    margin: 0px;
+    padding: 0px;
+}
+.Headingpart h3{
+    font-size: 2.3rem;
+    margin: 0px;
+    padding: 0px;
+}
+.Headingpart p{
+    font-size: 1.3rem;
+    margin: 0px;
+    padding: 0px;
+}
+.image{
+    height: 1em;
+}
+.para{
+    margin-top: 1em;
+}

@@ -1,0 +1,61 @@
+.icon{
+    height: 1.7em;
+    border-radius: 0.4em;
+}
+.buttonSection{
+    /* border: 2px solid red; */
+    height: 3rem;
+    width: 22rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.storebtn{
+    display: flex;
+    height: 2.8rem;
+    width: 10rem;
+    font-size: 1.1em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.6rem;
+    border: 0.5px solid gray;
+    
+}
+
+.linkbtn{
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.mainpart{
+    /* border: 2px solid blue; */
+    height: 13em;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.buyButton{
+    height: 2.8rem;
+    width: 10rem;
+    border-radius: 0.6rem;
+    border: 0.5px solid gray;
+}
+.subscriptionMsg{
+    margin-top: 1em;
+    text-align: center;
+    color: gray;
+}
+.shelfimg{
+    height: 1.8rem;
+}
+.updateReleasebtn{
+    margin-top: 1em;
+    display: flex;
+    font-size: 1em;
+    height: 2em;
+    justify-content: space-around;
+    align-items: end;
+    border: none;
+    border-radius: 0.5em;
+}

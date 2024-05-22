@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.maincontainer{
+    display: flex;
+    /* border: 3px solid red; */
+    height: 100vh;
+    width: 99vw;
+    justify-content: center;
+
+}
+.subcontainer{
+    display: flex;
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid green; */
+    margin-top: 2rem;
+    box-shadow: 0 0 10px 2px rgba(128, 128, 128, 0.5);
+
+}
+
+.Firstcontainer{
+    width: 50%;
+    /* border: 2px solid black; */
+    margin-top: 1rem
+}
+.Secondcontainer{
+    width: 50%;
+    /* border: 2px solid blue; */
+}
+
+.backicon{
+    height: 2rem;
+   
+}
+.backbutton{
+    display: flex;
+    height: 2.5rem;
+    width: 7rem;
+    font-size: 1.6rem;
+    /* justify-content: space-between; */
+    justify-content: center;  
+    border: none;
+}
+
+
+.bpara{
+    color: rgb(140, 132, 132);
+    margin-top: 1.8rem;
+    padding-left: 2em;
+}
+
+.money{
+    font-size: 2rem;
+    padding-left: 0.9em;
+    
+}
+
+.amountDetails{
+    /* border: 2px solid red; */
+    margin-top: 1rem;
+    height: 20rem;
+}
+
+.promo-input {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+.apply-btn {
+    padding: 8px 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.formsubcontainer{
+    /* border: 2px solid black; */
+
+    width: 90%;
+    margin-top: 0.8em;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    box-shadow: -5px 0 5px -5px rgba(203, 198, 198, 0.5);
+
+
+}
+
+#email{
+    height: 2.5em;
+    width: 24em;
+    border-radius: 0.4rem;
+    border: 1px solid black;
+}
+.details{
+    font-size: 1.3rem;
+    /* color: rgb(165, 156, 156); */
+    font-family: sans-serif;
+}
+#cardNumber{
+    height: 2.5em;
+    width: 24em;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    border: 1px solid black;}
+#cvc{
+    height: 2.5em;
+    width: 12em;
+    border-bottom-left-radius: 0.4em;
+    border: 1px solid black;}
+#expiry{
+    height: 2.5em;
+    width: 11.85em;
+    border-bottom-right-radius: 0.4em;
+    border: 1px solid black;}
+#cardHolderName{
+    height: 2.5em;
+    width: 24em;
+    border-radius: 0.4rem;
+    border: 1px solid gray;
+}
+.paybutton{
+    height: 2.5em;
+    width: 20em;
+    font-size: 1em;
+    background-color: rgb(80, 80, 237);
+    border-radius: 0.2em;
+    border: none;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+#country-select{
+    height: 2.5em;
+    width: 24em;
+    border-radius: 0.4rem;
+    border: 1px solid gray;
+}
+
+#paypalName{
+    height: 2.5em;
+    width: 24em;
+}
+.linkupay{
+    height: 3em;
+    width: 22.5em;
+    font-size: 0.9em;
+    border-radius: 0.4em;
+    border: none;
+    background-color: rgb(78, 215, 106);
+}
+.otherway{
+    /* border: 1px solid black; */
+    margin-top: 1rem;
+    text-align: center;
+}
+.screenicon{
+    /* border: 1px solid black; */
+    height: 7rem;
+}

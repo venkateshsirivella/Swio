@@ -1,0 +1,9 @@
+.custom{
+    /* border: 2px solid black; */
+    height: 17rem;
+    text-align: center;
+}
+.customsubcontainer{
+    /* border: 2px solid green; */
+    margin-top: 2rem;
+}
